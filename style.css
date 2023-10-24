@@ -1,0 +1,94 @@
+html, 
+body 
+{
+  width: 100%;
+  height: 100%;
+}
+/* -------------------------------------------------------- Nav Bar Navigation --------------------------------------------------------*/
+
+/* Add a black background color to the top navigation */
+.topnav 
+{
+  background-color: auto;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a 
+{
+  width: 1fr;
+  float: right;
+  color: #000;
+  font-family: 'Futura', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover 
+{
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active 
+{
+  background-color: yellow;
+  color: black;
+}
+
+/* -----------------------------------------------   Hero section ------------------------------------------------------- */
+.banner 
+{
+  background: url("/images/nerdywebdesigns.com.jpg");
+  width:100%;
+  height:70vh;
+}
+
+.banner-content
+{ 
+  padding-top: 170px;
+  color: #fff;
+  width:  55%;
+}
+
+.banner-content span
+{
+  font-size:18px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  font-family: 'Coiny','Futura','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+} 
+
+.banner-content h1
+{
+  margin-bottom: 10vh;
+  font-size:50px;
+  font-weight:600;
+  letter-spacing: -5px;
+  font-family: 'Futura','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.banner-content a
+{
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.banner-content .btn-one span
+{
+  text-align: center;
+  text-decoration: none;
+  margin-left: 150px;
+  font-family: 'Futura','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* -----------------------------------------------   Body section ------------------------------------------------------- */
+
+
+/* -----------------------------------------------   Footer section ------------------------------------------------------- */
